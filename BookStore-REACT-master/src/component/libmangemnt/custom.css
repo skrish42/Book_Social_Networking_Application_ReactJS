@@ -1,0 +1,33 @@
+/* custom.css */
+.library-center-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    height: 250px; /* Set a fixed height for all boxes (adjust as needed) */
+  }
+  
+  .library-center-card:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .center-image {
+    width: 100%; /* Set width to 100% for the image */
+    height: 90%; /* Set a percentage height for the image (adjust as needed) */
+    border: 1px solid #ccc;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .library-center-name {
+    font-size: 18px; /* Adjust the font size as needed */
+    text-transform: capitalize;
+    flex-grow: 1; /* Allow text to expand to fill available space */
+  }
+  

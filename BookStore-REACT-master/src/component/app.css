@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    min-height: 100vh;
+  }
+
+  footer {
+    display: inline-block;
+    position: static;
+    width: 100%;
+    padding-top: 80px;
+    bottom: 0;
+    background-color: rgb(77, 76, 76);
+  }
+
+ 
+
+  /* Add margin and border to the library center cards */
+
+
+.library-center-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.library-center-card:hover {
+  background-color: #f7f7f7;
+}
+
+
+/* navbar */
+.list-books-title {
+  padding: 10px 0;
+  background: black;
+  text-align: center;
+}
+.list-books-title h1 {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+.list-books-content {
+  padding: 0 0 80px;
+  flex: 1;
+}
+
+
+/* Add this CSS to your project's stylesheet, e.g., App.css or a separate custom CSS file */
+
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  color: #fff; /* Text color */
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Style for hover state */
+}
